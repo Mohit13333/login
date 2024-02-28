@@ -56,7 +56,7 @@ input{
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 5px;
 }
 .mp{
     margin-left: 10px;
