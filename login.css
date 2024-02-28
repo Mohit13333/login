@@ -84,13 +84,3 @@ a{
 #Signup{
     transform:translateY(500px);
 }
-body .active #Login{
-    transform: translateY(-500px);
-}
-body .active #Signup{
-    transform: translateY(0px);
-}
-body .active main{
-    transition: .3s;
-    height: 500px;
-}
