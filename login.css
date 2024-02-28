@@ -59,7 +59,9 @@ input{
 }
 .mp{
     margin-left: 1rem;
-    font-size: 0.95rem;
+    font-size: 0.88rem;
+    font-weight:600;
+    color:rgb(142, 107, 64);
 }
 button{
     padding: 10px 0;
