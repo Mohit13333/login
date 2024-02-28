@@ -57,6 +57,10 @@ input{
     justify-content: flex-start;
     gap: 10px;
 }
+.mp{
+    margin-left: 1rem;
+    font-size: 0.95rem;
+}
 button{
     padding: 10px 0;
     border:none;
@@ -80,7 +84,4 @@ a{
     color: #f3f3f3;
     font-size: 20px;
     font-weight: 700;
-}
-#Signup{
-    transform:translateY(500px);
 }
