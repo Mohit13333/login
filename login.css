@@ -10,7 +10,7 @@ body{
     height: 500px;
     color: white;
     background-image: url('login.jpg');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 main{
@@ -88,16 +88,4 @@ a{
     font-size: 20px;
     font-weight: 700;
 }
-#Signup{
-    transform:translateY(500px);
-}
-body .active #Login{
-    transform: translateY(-500px);
-}
-body .active #Signup{
-    transform: translateY(0px);
-}
-body .active main{
-    transition: .3s;
-    height: 500px;
-}
+
