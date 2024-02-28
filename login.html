@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <main>
+        <form id="Login">
+            <header>
+                <h4>Login here using your username and paasword</h4>
+            </header>
+            <div class="login">
+                <input type="text" placeholder="username">
+            </div>
+            <div class="login">
+                <input type="paasword" placeholder="password">
+            </div>
+            <div class="login remember">
+                <input id="check" type="checkbox">
+                <label for="check">Remember Me</label>
+            </div>
+            <button type="submit">Login</button>
+            <p class="footer">
+                Don't have account   <a onclick="swithMode()" href="#">Sign Up</a>
+            </p>
+        </form>
+        <form id="Signup">
+            <header>
+                <h4>Signup here using your details</details></h4>
+            </header>
+            <div class="Signup">
+                <input type="text" placeholder="Username">
+            </div>
+            <div class="Signup">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="Signup">
+                <input type="tel" placeholder="Phone Number">
+            </div>
+            <div class="Signup">
+                <input type="paasword" placeholder="Password">
+            </div>
+            <div class="signup remember">
+                <input id="check" type="checkbox">
+                <label for="check">I agree to term & conditions</label>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p class="footer">
+                Already have account   <a onclick="swithMode()" href="#">Login</a>
+            </p>
+        </form>
+    </main>
+    
+</body>
+</html>
