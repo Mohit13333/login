@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
 </head>
@@ -13,10 +13,10 @@
                 <h4>Login here using your username and paasword</h4>
             </header>
             <div class="login">
-                <input type="text" placeholder="username">
+                <input type="text" placeholder="username" required>
             </div>
             <div class="login">
-                <input type="paasword" placeholder="password">
+                <input type="paasword" placeholder="password" required>
             </div>
             <div class="login remember">
                 <input id="check" type="checkbox">
@@ -32,16 +32,16 @@
                 <h4>Signup here using your details</details></h4>
             </header>
             <div class="Signup">
-                <input type="text" placeholder="Username">
+                <input type="text" placeholder="Username" required>
             </div>
             <div class="Signup">
-                <input type="email" placeholder="Email">
+                <input type="email" placeholder="Email" required>
             </div>
             <div class="Signup">
-                <input type="tel" placeholder="Phone Number">
+                <input type="tel" placeholder="Phone Number" pattern=[0-9]{10} required>
             </div>
             <div class="Signup">
-                <input type="paasword" placeholder="Password">
+                <input type="paasword" placeholder="Password" required>
             </div>
             <div class="signup remember">
                 <input id="check" type="checkbox">
