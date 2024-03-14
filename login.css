@@ -80,7 +80,7 @@ button:hover{
     transition: .3s ease-in;
 }
 .footer{
-    font-size: 10px;
+    font-size: 1rem;
     margin-top: 20px;
 }
 a{
